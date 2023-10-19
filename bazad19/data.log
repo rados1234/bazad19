@@ -1,0 +1,8 @@
+ select p.id, p.imie, p.nazwisko, p.wiek, s.nazwa, p.sep, !isnull(zdjecie) czyzdj 
+ from pracownicy p, sl_stan s 
+ where p.stanowisko = s.id 
+ and skasowany is null
+ select p.id, p.imie, p.nazwisko, p.wiek, s.nazwa, p.sep, !isnull(zdjecie) czyzdj 
+ from pracownicy p, sl_stan s 
+ where p.stanowisko = s.id 
+ and skasowany is null
