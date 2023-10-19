@@ -1,0 +1,105 @@
+---------------------------------
+Start systemu: 12-09-2023 12:12:17
+ select p.id, p.imie, p.nazwisko, p.wiek, s.nazwa, p.sep, !isnull(zdjecie) czyzdj 
+ from pracownicy p, sl_stan s 
+ where p.stanowisko = s.id 
+ and skasowany is null
+ select p.id, p.imie, p.nazwisko, p.wiek, s.nazwa, p.sep, !isnull(zdjecie) czyzdj 
+ from pracownicy p, sl_stan s 
+ where p.stanowisko = s.id 
+ and skasowany is null
+---------------------------------
+Start systemu: 12-09-2023 12:17:16
+ select p.id, p.imie, p.nazwisko, p.wiek, s.nazwa, p.sep, !isnull(zdjecie) czyzdj 
+ from pracownicy p, sl_stan s 
+ where p.stanowisko = s.id 
+ and skasowany is null
+ select p.id, p.imie, p.nazwisko, p.wiek, s.nazwa, p.sep, !isnull(zdjecie) czyzdj 
+ from pracownicy p, sl_stan s 
+ where p.stanowisko = s.id 
+ and skasowany is null
+---------------------------------
+Start systemu: 12-09-2023 12:17:21
+ select p.id, p.imie, p.nazwisko, p.wiek, s.nazwa, p.sep, !isnull(zdjecie) czyzdj 
+ from pracownicy p, sl_stan s 
+ where p.stanowisko = s.id 
+ and skasowany is null
+ select p.id, p.imie, p.nazwisko, p.wiek, s.nazwa, p.sep, !isnull(zdjecie) czyzdj 
+ from pracownicy p, sl_stan s 
+ where p.stanowisko = s.id 
+ and skasowany is null
+---------------------------------
+Start systemu: 12-09-2023 12:24:27
+ dselect p.id, p.imie, p.nazwisko, p.wiek, s.nazwa, p.sep, !isnull(zdjecie) czyzdj 
+ from pracownicy p, sl_stan s 
+ where p.stanowisko = s.id 
+ and skasowany is null
+ dselect p.id, p.imie, p.nazwisko, p.wiek, s.nazwa, p.sep, !isnull(zdjecie) czyzdj 
+ from pracownicy p, sl_stan s 
+ where p.stanowisko = s.id 
+ and skasowany is null
+---------------------------------
+Start systemu: 12-09-2023 12:25:51
+Statement.executeQuery() cannot issue statements that do not produce result sets.
+ dselect p.id, p.imie, p.nazwisko, p.wiek, s.nazwa, p.sep, !isnull(zdjecie) czyzdj 
+ from pracownicy p, sl_stan s 
+ where p.stanowisko = s.id 
+ and skasowany is null
+Statement.executeQuery() cannot issue statements that do not produce result sets.
+ dselect p.id, p.imie, p.nazwisko, p.wiek, s.nazwa, p.sep, !isnull(zdjecie) czyzdj 
+ from pracownicy p, sl_stan s 
+ where p.stanowisko = s.id 
+ and skasowany is null
+---------------------------------
+Start systemu: 12-09-2023 12:27:16
+java.sql.SQLException: Statement.executeQuery() cannot issue statements that do not produce result sets.
+ dselect p.id, p.imie, p.nazwisko, p.wiek, s.nazwa, p.sep, !isnull(zdjecie) czyzdj 
+ from pracownicy p, sl_stan s 
+ where p.stanowisko = s.id 
+ and skasowany is null
+java.sql.SQLException: Statement.executeQuery() cannot issue statements that do not produce result sets.
+ dselect p.id, p.imie, p.nazwisko, p.wiek, s.nazwa, p.sep, !isnull(zdjecie) czyzdj 
+ from pracownicy p, sl_stan s 
+ where p.stanowisko = s.id 
+ and skasowany is null
+---------------------------------
+Start systemu: 15-09-2023 10:41:35
+---------------------------------
+Start systemu: 15-09-2023 10:42:43
+---------------------------------
+Start systemu: 15-09-2023 10:42:56
+update testy.pracownicy
+set skasowany = 1
+where id = 54
+---------------------------------
+Start systemu: 15-09-2023 10:48:20
+---------------------------------
+Start systemu: 15-09-2023 10:50:20
+update testy.pracownicy
+set skasowany = 1
+where id = 14
+update testy.pracownicy
+set skasowany = 1
+where id = 18
+---------------------------------
+Start systemu: 15-09-2023 10:50:59
+update testy.pracownicy
+set skasowany = 1
+where id = 15
+---------------------------------
+Start systemu: 15-09-2023 10:51:22
+update testy.pracownicy
+set skasowany = 1
+where id = 5
+---------------------------------
+Start systemu: 15-09-2023 10:52:03
+7
+update testy.pracownicy
+set skasowany = 1
+where id = 7
+---------------------------------
+Start systemu: 15-09-2023 10:52:53
+10
+update testy.pracownicy
+set skasowany = 1
+where id = 10
