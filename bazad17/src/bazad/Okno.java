@@ -36,7 +36,7 @@ import javax.swing.ScrollPaneConstants;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
-//test
+//test111
 public class Okno extends JDialog {
 
 	private final JPanel contentPanel = new JPanel();
